@@ -1,0 +1,1 @@
+The class named "Solution" contains the 2nd approach to question1
