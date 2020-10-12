@@ -6,13 +6,16 @@ public class Solution {
 	
 public static void main(String[] args){
 	Scanner in = new Scanner(System.in);
+	System.out.print("Enter number of rows: ");
 	n= in.nextInt();
+	System.out.print("Enter number of columns: ");
 	m= in.nextInt();
 	
 	in.nextLine();
 	
 	String[] crops = new String[n];
 	for (int i=0;i<n;i++){
+		System.out.print("Row No. "+(int)(i+1)+": ");
 		crops[i]=in.nextLine();
 	}
 	
