@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Christmas Tree</h1>
+<p id="demo"></p>
+
+<script>
+
+
+//document.write(5+6);
+var len = prompt("Please enter length of tree", "10");
+len= int(len);
+
+</script>
+
+<script type="text/javascript">
+	var i;
+	var j;
+
+	
+	for(i=1; i<len; i++)
+	{
+		document.write("&nbsp");
+		document.write("&nbsp");
+	}
+	document.write('*');
+	document.write("<br>");
+
+	for(i=2; i<=len; i++)
+	{
+		for(j=1; j<=len-i; j++){
+			document.write("&nbsp");
+			document.write("&nbsp");
+		}
+		for(j=1; j<2*i; j++)
+			document.write(0);
+		document.write("<br>")
+	}
+
+	for(i=1; i<len; i++){
+		document.write("&nbsp")
+		document.write("&nbsp")
+	}
+
+	document.write('||');
+	
+</script>
+
+</body>
+</html>
+
