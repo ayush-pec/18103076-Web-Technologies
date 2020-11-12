@@ -1,1 +1,1 @@
-Code for all for questions is in the src folder.
+Code for all 4 questions is in the src folder.
